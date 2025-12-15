@@ -29,7 +29,7 @@ async function bootstrap() {
 
 if (!process.env.VERCEL) {
   bootstrap().then(app =>
-    app.listen(process.env.PORT ?? 3000)
+    app.listen(3000)
   );
 }
 
