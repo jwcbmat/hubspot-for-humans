@@ -1,5 +1,5 @@
 {
-  "name": "echo-log",
+  "name": "hubspot-for-human",
   "private": false,
   "scripts": {
     "build": "nest build && cpy public dist --flat",
